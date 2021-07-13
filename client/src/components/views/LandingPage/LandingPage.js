@@ -12,6 +12,7 @@ function LandingPage() {
     const [Movies, setMovies] = useState([])
     const [MainMovieImage, setMainMovieImage] = useState(null)
     const [CurrentPage, setCurrentPage] = useState(0)
+    
 
     useEffect(() => {
 
