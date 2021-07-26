@@ -84,7 +84,7 @@ function Favorite(props) {
 
     return (
         <div>
-           <Button onClick={onClickFavorite}>{ Favorited? "Not Favorite" : "Add to Favorite "} {FavoriteNumber} </Button>           
+           <Button onClick={onClickFavorite}>{ Favorited? "Not Favorite" : "Add to Favorite "} {FavoriteNumber} {console.log('Favorite.js return ')}</Button>           
         </div>
     )
 }

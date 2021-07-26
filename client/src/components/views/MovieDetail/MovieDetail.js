@@ -66,7 +66,9 @@ function MovieDetail(props) {
 
                 <MovieInfo movie={Movie} />
 
-                {/* Movie Grid Cards */}
+                {/* Movie Grid Cards */
+                    console.log('this=====>')
+                }
 
                 <div style={{display:'flex', justifyContent:'center', margin:'2rem'}}>
                     <button onClick={toggleActorView}> Toggle Actor View </button>
