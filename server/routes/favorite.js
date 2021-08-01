@@ -53,7 +53,7 @@ router.post('/removeFromFavorite', (req, res) => {
         .exec((err, doc) => {
             if(err) return res.status(400).send(err)
 
-            res.status(200).json({success:true, doc})
+            return res.status(200).json({success:true, doc})
         })
 })
 
