@@ -21,7 +21,7 @@ function LandingPage() {
 
     const loadMoreItems = () => {
         const endpoint = `${API_URL}/movie/popular?api_key=${API_KEY}&language=en-US&page=${CurrentPage + 1}`;
-        fetchMovies(endpoint)        
+        fetchMovies(endpoint)
     }
 
     const fetchMovies = (endpoint) => {
@@ -68,8 +68,7 @@ function LandingPage() {
                                     movieId={movie.id}
                                     movieName={movie.original_title}
                                 />
-                            </React.Fragment>
-                            
+                            </React.Fragment>                            
                         ))}                        
                     </Row>
                 </div>
